@@ -9,7 +9,7 @@ A GUI-based application that uses YOLOv8 for object detection from live camera, 
     
 🛠️ Setup
 Clone the repository:
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/duongmanh27/object_recognition_have_gui.git
    cd object_recognition_have_gui
    pip install -r requirements.txt
 
@@ -20,8 +20,8 @@ Clone the repository:
    python main.py
 
 📁 Project Structure
-  ├── call_api.py        # Flask API for image upload and management
-  ├── main.py            # Main GUI + YOLOv8 inference
-  ├── saved_images/      # (Optional) Background or UI images
-  ├── images.db          # SQLite database (auto-created)
-  ├── requirements.txt   # Required dependencies
+  - call_api.py        # Flask API for image upload and management
+  - main.py            # Main GUI + YOLOv8 inference
+  - saved_images/      # (Optional) Background or UI images
+  - images.db          # SQLite database (auto-created)
+  - requirements.txt   # Required dependencies
